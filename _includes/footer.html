@@ -31,3 +31,13 @@
       </div>
     </div>
   </footer>
+
+  {% if page.scripts == true %}
+    <script src="{{ '/assets/js/jquery-1.10.2.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
+  {% endif %}
+
+  {% if page.title == 'Expertise' %}
+    {% include expertise_script.html %}
+  {% endif %}
