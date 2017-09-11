@@ -1,8 +1,7 @@
-- title: Introduction
-  url: introduction.html
+items:
 
-- title: Configuration
-  url: configuration.html
+- title: Expertise
+  url: expertise
 
-- title: Deployment
-  url: deployment.html
+- title: FAQ
+  url: faq

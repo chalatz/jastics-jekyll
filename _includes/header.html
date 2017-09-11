@@ -10,22 +10,26 @@
             </button>
         </div>
 
-        <div class="navbar-collapse collapse" id="navbar-main">
+        <div class="navbar-collapse collapse" id="navbar-main">            
         
-        <ul class="nav navbar-nav">
-            <li {% if page.title == 'Expertise' %} class="active" {% endif %} >
-                <a href="{{ 'expertise' | relative_url }}">Expertise</a>
-            </li>
-            <li {% if page.title == 'FAQ' %} class="active" {% endif %}>
-                <a href="faq">FAQ</a>
-            </li>
-        </ul>
+            <ul class="nav navbar-nav">
+                
+                {% for item in site.data.menu.items %}
+                {% assign page_url = page.url | remove_first: '/' | remove: '.html' %}
+                    <li {% if item.url == page_url %} class="active" {% endif %}>
+                        <a href="{{ item.url | relative_url }}">
+                            {{ item.title }}
+                        </a>
+                    </li>
+                {% endfor %}
 
-        <div class="btn-toolbar pull-right">
-            <div class="btn-group">
-                <a href="{{ 'hire' | relative_url }}" class="btn btn-hire-menu">Hire Us</a>
+            </ul>
+
+            <div class="btn-toolbar pull-right">
+                <div class="btn-group">
+                    <a href="{{ 'hire' | relative_url }}" class="btn btn-hire-menu">Hire Us</a>
+                </div>
             </div>
-        </div>
 
         </div>
     </div>
