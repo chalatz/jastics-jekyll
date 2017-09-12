@@ -3,3 +3,11 @@
         text-decoration: underline;
     }
 }
+
+.btn-hire {
+    &:hover {
+        transition: background-color .5s ease-in;
+        -webkit-transition: background-color .2s linear;
+        background-color: darken(#47B2F4, 15%);
+    }
+}
