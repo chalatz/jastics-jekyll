@@ -6970,6 +6970,9 @@ a.mail {
 
 .faq-question-block a {
   text-decoration: underline;
+  &:hover {
+    color: $lightblue;
+  }
 }
 
 .faq-question {
