@@ -1,4 +1,5 @@
-.post {
+.post,
+.posts {
     margin: 2em auto;
     max-width: 38em;
 
@@ -23,6 +24,10 @@
 
 .post-title {
     font-size: 2em;
+}
+
+.post-summary-title {
+    font-size: 1.2em;
 }
 
 .post-meta {
@@ -58,4 +63,21 @@
     position: relative !important;
     margin-left: 0 !important;
     text-decoration: none !important;
+}
+
+.blog-pagination {
+    margin: 2em 0;
+    text-align: center;
+}
+
+.pagination-nav {
+    &:hover {
+        text-decoration: none;
+        color: $lightblue;
+    }
+}
+
+.current-page-number {
+    font-weight: bold;
+    color: $darkblue;
 }

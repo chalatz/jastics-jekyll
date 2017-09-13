@@ -11,3 +11,8 @@
         background-color: darken(#47B2F4, 15%);
     }
 }
+
+.site-footer {
+    box-shadow: 0 999em 0 999em $footer-bg;
+    -webkit-box-shadow: 0 999em 0 999em $footer-bg;
+}
