@@ -20,7 +20,7 @@
     </header>
 
     <div class="post-content">
-        {{ summary.content | strip_html | truncatewords: 50 }}
+        {{ summary.content | markdownify | strip_html | truncatewords: 50 }}
     </div>
 
 </article>
