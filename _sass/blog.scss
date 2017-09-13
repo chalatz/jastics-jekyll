@@ -1,10 +1,18 @@
 .post,
 .posts {
     margin: 2em auto;
-    max-width: 38em;
+    max-width: 54em;
 
     h2, h3, h4 {
         margin-top: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.1em;
     }
 
     a {
@@ -23,7 +31,7 @@
 }
 
 .post-title {
-    font-size: 2em;
+    font-size: 1.3em;
 }
 
 .post-summary-title {
@@ -63,6 +71,7 @@
     position: relative !important;
     margin-left: 0 !important;
     text-decoration: none !important;
+    color: $darkblue !important;
 }
 
 .blog-pagination {
