@@ -7,4 +7,7 @@ items:
   url: faq
 
 - title: Blog
-  url: blog  
+  url: blog
+
+- title: Whitepapers
+  url: whitepapers
