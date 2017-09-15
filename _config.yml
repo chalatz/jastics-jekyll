@@ -32,6 +32,12 @@ github_username:  jekyll
 paginate: 2
 paginate_path: "/blog/page/:num/"
 
+disqus:
+  comments: true
+  shortname: chalatz-jastics
+
+analytics: false
+
 collections:
   whitepapers:
     output: true
