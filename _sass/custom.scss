@@ -248,6 +248,9 @@ footer p {
 .footer-icon-link {
     &:hover {
         text-decoration: none;
+        .footer-icon {
+            fill: $lightblue;
+        }
     }
 }
 
@@ -256,6 +259,7 @@ footer p {
     margin-right: 10px;
     width: 42px;
     height: 42px;
+    fill: #fff;
 }    
     
 .footer-icons {

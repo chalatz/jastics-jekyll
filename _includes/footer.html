@@ -1,4 +1,4 @@
-<footer class="navbar navbar-footer">
+<footer class="site-footer navbar navbar-footer">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 text-center">
@@ -7,18 +7,31 @@
                     <a href="mailto:{{ site.email }}">{{ site.email }}</a>
                 </div>
                 <div class="footer-icons">
-                    <a class="footer-icon-link" href="{{ linkedin_url }}" title="Linkedin">
-                        <img class="footer-icon" src="{{ '/assets/images/social/linkedin.svg' | relative_url }}" alt="LinkedIn Link">
+                    <a class="footer-icon-link" href="{{ site.linkedin_url }}" title="Linkedin">
+                        <svg class="footer-icon">
+                            <title>Linkedin</title>
+                            <use xlink:href="#icon-linkedin" />
+                        </svg>
                     </a>
-                    <a class="footer-icon-link" href="{{ upwork_url }}" title="Upwork">
-                        <img class="footer-icon" src="{{ '/assets/images/social/upwork.svg' | relative_url }}" alt="Upwork Link">
+                    <a class="footer-icon-link" href="{{ site.upwork_url }}" title="Upwork">
+                        <svg class="footer-icon">
+                            <title>Upwork</title>
+                            <use xlink:href="#icon-upwork" />
+                        </svg>
                     </a>
-                    <a class="footer-icon-link" href="{{ twitter_url }}" title="Twitter">
-                        <img class="footer-icon" src="{{ '/assets/images/social/twitter.svg' | relative_url }}" alt="Twitter Link">
+                    <a class="footer-icon-link" href="{{ site.twitter_url }}" title="Twitter">
+                        <svg class="footer-icon">
+                            <title>Twitter</title>
+                            <use xlink:href="#icon-twitter" />
+                        </svg>
                     </a>
-                    <a class="footer-icon-link" href="{{ instagram_url }}" title="Instagram">
-                        <img class="footer-icon" src="{{ '/assets/images/social/instagram.svg' | relative_url }}" alt="Instagram Link">
+                    <a class="footer-icon-link" href="{{ site.instagram_url }}" title="Instagram">
+                        <svg class="footer-icon">
+                            <title>Instagram</title>
+                            <use xlink:href="#icon-instagram" />
+                        </svg>
                     </a>
+
                 </div>
             </div>
         </div>
