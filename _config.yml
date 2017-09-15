@@ -53,6 +53,9 @@ defaults:
     values:
       layout: whitepaper
 
+sass:
+  style: compressed
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
