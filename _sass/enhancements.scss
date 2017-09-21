@@ -22,3 +22,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     box-shadow: 0 999em 0 999em $footer-bg;
     -webkit-box-shadow: 0 999em 0 999em $footer-bg;
 }
+
+body.modal-open {
+    overflow: hidden;
+}
